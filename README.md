@@ -6,6 +6,7 @@
 
 * [Java Wrapper Classes Internal Caching](https://howtodoinjava.com/java/basics/object-initialization-best-practices-internal-caching-in-wrapper-classes/)
 * [How to Write an Equality Method in Java](https://www.artima.com/lejava/articles/equality.html)
+* [Java's built-in logging](http://tutorials.jenkov.com/java-logging/index.html)
 
 #### Garbage Collectors (GC)
 
