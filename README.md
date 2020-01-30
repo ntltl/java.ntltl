@@ -1,6 +1,8 @@
 # java.ntltl
 
-### Blog
+## Blog
+
+### Java Language / JVM
 
 #### Fundamentals
 
@@ -17,3 +19,9 @@
 #### Features in the future
 
 * [Records Come to Java](https://blogs.oracle.com/javamagazine/records-come-to-java)
+
+### Java Frameworks
+
+#### Spring / Spring Boot
+
+* [Spring Boot Annotations](https://howtodoinjava.com/spring-boot2/spring-boot-annotations/)
