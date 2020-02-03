@@ -20,6 +20,10 @@
 
 * [Records Come to Java](https://blogs.oracle.com/javamagazine/records-come-to-java)
 
+### Java Libraries
+
+* [Documentation for the Jackson JSON processor.](https://github.com/FasterXML/jackson-docs)
+
 ### Java Frameworks
 
 #### Spring / Spring Boot
