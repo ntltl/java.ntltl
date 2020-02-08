@@ -10,6 +10,10 @@
 * [How to Write an Equality Method in Java](https://www.artima.com/lejava/articles/equality.html)
 * [Java's built-in logging](http://tutorials.jenkov.com/java-logging/index.html)
 
+#### Advanced
+
+* [Super Type Tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html)
+
 #### Garbage Collectors (GC)
 
 * [Understanding Garbage Collectors](https://blogs.oracle.com/javamagazine/understanding-garbage-collectors)
