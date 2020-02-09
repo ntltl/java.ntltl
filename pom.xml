@@ -11,39 +11,57 @@
 	<name>java.ntltl</name>
 	<description>java.ntltl: It is never too late to learn Java</description>
 
+	<inceptionYear>2020</inceptionYear>
+
+	<contributors>
+		<contributor>
+			<name>Runrioter Wung</name>
+			<email>runrioter@gmail.com</email>
+		</contributor>
+	</contributors>
+
 	<properties>
-		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<maven-compiler-plugin>3.8.1</maven-compiler-plugin>
-		<exec-maven-plugin>1.6.0</exec-maven-plugin>
+		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+
+		<junit-jupiter.version>5.6.0</junit-jupiter.version>
 	</properties>
 
 	<dependencies>
-		
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${junit-jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>${maven-compiler-plugin}</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
+				<version>${maven-compiler-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>${exec-maven-plugin}</version>
+				<version>${exec-maven-plugin.version}</version>
 				<executions>
 					<execution>
-						<phase>compile</phase>
 						<goals>
 							<goal>java</goal>
 						</goals>
