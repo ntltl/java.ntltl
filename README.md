@@ -2,7 +2,7 @@
 
 ## Blog
 
-### Java Language / JVM
+### Java Language
 
 #### Fundamentals
 
@@ -14,11 +14,12 @@
 
 * [Super Type Tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html)
 
-#### Garbage Collectors (GC)
+#### JVM / Garbage Collectors (GC)
 
 * [Understanding Garbage Collectors](https://blogs.oracle.com/javamagazine/understanding-garbage-collectors)
 * [Epsilon: The JDK’s Do-Nothing Garbage Collector](https://blogs.oracle.com/javamagazine/epsilon-the-jdks-do-nothing-garbage-collector)
 * [Understanding the JDK’s New Superfast Garbage Collectors](https://blogs.oracle.com/javamagazine/understanding-the-jdks-new-superfast-garbage-collectors)
+* [Inspecting HotSpot JVM Options](http://q-redux.blogspot.com/2011/01/inspecting-hotspot-jvm-options.html)
 
 #### Features in the future
 
