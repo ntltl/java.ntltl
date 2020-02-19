@@ -1,4 +1,4 @@
-package com.github.ntltl.java;
+package com.github.ntltl;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,9 +12,9 @@ class ContainerTest {
 
     @Test
     void getType() {
-        Container<List<String>> container = new Container<List<String>>() {};
+        Container<List<Runrioter>> container = new Container<List<Runrioter>>() {};
         Type actualType = container.getType();
 
-        assertEquals("java.util.List<java.lang.String>", actualType.getTypeName());
+        assertEquals("java.util.List<com.github.ntltl.Runrioter>", actualType.getTypeName());
     }
 }

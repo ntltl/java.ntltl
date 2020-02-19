@@ -1,4 +1,4 @@
-package com.github.ntltl.java;
+package com.github.ntltl;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

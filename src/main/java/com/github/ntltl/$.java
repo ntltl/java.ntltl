@@ -1,4 +1,4 @@
-package com.github.ntltl.java;
+package com.github.ntltl;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -8,7 +8,7 @@ class $ {
 
   public static void main(String... args) {
 
-    Container<List<String>> container = new Container<List<String>>() {};
+    Container<List<Runrioter>> container = new Container<List<Runrioter>>() {};
 
     Type t = container.getType();
 
