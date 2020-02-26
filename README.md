@@ -26,6 +26,10 @@
 
 * [Records Come to Java](https://blogs.oracle.com/javamagazine/records-come-to-java)
 
+### Code Style
+
+* [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html)
+
 ### Java Libraries
 
 * [Documentation for the Jackson JSON processor.](https://github.com/FasterXML/jackson-docs)
