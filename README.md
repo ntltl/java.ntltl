@@ -12,6 +12,7 @@
 
 #### Advanced
 
+* [Java Generics FAQs](http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
 * [Super Type Tokens](http://gafter.blogspot.com/2006/12/super-type-tokens.html)
 
 #### JVM / Garbage Collectors (GC)
