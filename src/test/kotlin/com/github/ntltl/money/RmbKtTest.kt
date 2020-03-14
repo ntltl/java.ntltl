@@ -13,12 +13,13 @@ internal class RmbKtTest {
         val his = Rmb("1.23")
         val hers = Rmb("47.37")
 
-        assertEquals(Rmb("198.60"), mine.sum(mine, yours, his, hers))
+        assertEquals(Rmb("198.60"), mine.sum(yours, his, hers))
 
-        val ours = arrayOf(mine, yours, his, hers)
+        val ours = arrayOf(yours, his, hers)
         assertEquals(Rmb("198.60"), mine.sum(*ours))
 
         assertEquals(Rmb("150.00"), mine + yours)
         assertEquals(Rmb("150.00"), mine.add(yours))
+        assertEquals(Rmb("198.60"), mine jia yours jia his jia hers)
     }
 }
