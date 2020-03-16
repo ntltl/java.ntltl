@@ -6,4 +6,4 @@
 
 This is a demo repository for learning Java and Kotlin.
 
-### Refer to [Wiki](wiki) for more references.
+### Refer to [Wiki](https://github.com/ntltl/java.ntltl/wiki) for more references.
